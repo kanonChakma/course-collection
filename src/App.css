@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+.card{
+  width: 360px;
+  margin-top: 10px;
+}
+.card-img-top{
+ height: 200px;
+}
+.course-cart{
+margin-right:5px;
+font-size:15px;
+padding-bottom:5px;
+border-bottom: 1px solid rgb(4, 155, 52);
+}
+.proper{
+  text-align: left;
+  height: 600px;
+  border-radius: 5px;
+}
+.header{
+
+  /* //z-index: 1;
+ // position: fixed;
+  //width: 100%; */
+  margin-bottom: 10px;
+  line-height: 50px;
+}
+.header nav{
+  background-color: gray;
+  text-align: left;
+}
+.header nav a{
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.header nav a:hover{
+  border-bottom: 1px solid;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
